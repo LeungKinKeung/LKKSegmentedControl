@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C6BA9901DD20E5F0040A011 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BA98F1DD20E5F0040A011 /* main.m */; };
+		1C6BA9931DD20E5F0040A011 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BA9921DD20E5F0040A011 /* AppDelegate.m */; };
+		1C6BA9961DD20E5F0040A011 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BA9951DD20E5F0040A011 /* ViewController.m */; };
+		1C6BA9991DD20E5F0040A011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BA9971DD20E5F0040A011 /* Main.storyboard */; };
+		1C6BA99B1DD20E5F0040A011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BA99A1DD20E5F0040A011 /* Assets.xcassets */; };
+		1C6BA99E1DD20E5F0040A011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BA99C1DD20E5F0040A011 /* LaunchScreen.storyboard */; };
+		1C6BA9A91DD20E600040A011 /* LKKSegmentedControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BA9A81DD20E600040A011 /* LKKSegmentedControlTests.m */; };
+		1C6BA9B41DD20E600040A011 /* LKKSegmentedControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BA9B31DD20E600040A011 /* LKKSegmentedControlUITests.m */; };
+		1C6BA9C41DD20EC70040A011 /* LKKSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BA9C31DD20EC70040A011 /* LKKSegmentedControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C6BA9A51DD20E600040A011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C6BA9831DD20E5F0040A011 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C6BA98A1DD20E5F0040A011;
+			remoteInfo = LKKSegmentedControl;
+		};
+		1C6BA9B01DD20E600040A011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C6BA9831DD20E5F0040A011 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C6BA98A1DD20E5F0040A011;
+			remoteInfo = LKKSegmentedControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C6BA98B1DD20E5F0040A011 /* LKKSegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKKSegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6BA98F1DD20E5F0040A011 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C6BA9911DD20E5F0040A011 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C6BA9921DD20E5F0040A011 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C6BA9941DD20E5F0040A011 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1C6BA9951DD20E5F0040A011 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1C6BA9981DD20E5F0040A011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C6BA99A1DD20E5F0040A011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C6BA99D1DD20E5F0040A011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C6BA99F1DD20E5F0040A011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6BA9A41DD20E600040A011 /* LKKSegmentedControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKKSegmentedControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6BA9A81DD20E600040A011 /* LKKSegmentedControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKKSegmentedControlTests.m; sourceTree = "<group>"; };
+		1C6BA9AA1DD20E600040A011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6BA9AF1DD20E600040A011 /* LKKSegmentedControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKKSegmentedControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6BA9B31DD20E600040A011 /* LKKSegmentedControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKKSegmentedControlUITests.m; sourceTree = "<group>"; };
+		1C6BA9B51DD20E600040A011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6BA9C21DD20EC70040A011 /* LKKSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKKSegmentedControl.h; sourceTree = "<group>"; };
+		1C6BA9C31DD20EC70040A011 /* LKKSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKKSegmentedControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C6BA9881DD20E5F0040A011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6BA9A11DD20E600040A011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6BA9AC1DD20E600040A011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C6BA9821DD20E5F0040A011 = {
+			isa = PBXGroup;
+			children = (
+				1C6BA98D1DD20E5F0040A011 /* LKKSegmentedControl */,
+				1C6BA9A71DD20E600040A011 /* LKKSegmentedControlTests */,
+				1C6BA9B21DD20E600040A011 /* LKKSegmentedControlUITests */,
+				1C6BA98C1DD20E5F0040A011 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C6BA98C1DD20E5F0040A011 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BA98B1DD20E5F0040A011 /* LKKSegmentedControl.app */,
+				1C6BA9A41DD20E600040A011 /* LKKSegmentedControlTests.xctest */,
+				1C6BA9AF1DD20E600040A011 /* LKKSegmentedControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C6BA98D1DD20E5F0040A011 /* LKKSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BA9C11DD20E820040A011 /* LKKSegmentedControl */,
+				1C6BA9911DD20E5F0040A011 /* AppDelegate.h */,
+				1C6BA9921DD20E5F0040A011 /* AppDelegate.m */,
+				1C6BA9941DD20E5F0040A011 /* ViewController.h */,
+				1C6BA9951DD20E5F0040A011 /* ViewController.m */,
+				1C6BA9971DD20E5F0040A011 /* Main.storyboard */,
+				1C6BA99A1DD20E5F0040A011 /* Assets.xcassets */,
+				1C6BA99C1DD20E5F0040A011 /* LaunchScreen.storyboard */,
+				1C6BA99F1DD20E5F0040A011 /* Info.plist */,
+				1C6BA98E1DD20E5F0040A011 /* Supporting Files */,
+			);
+			path = LKKSegmentedControl;
+			sourceTree = "<group>";
+		};
+		1C6BA98E1DD20E5F0040A011 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BA98F1DD20E5F0040A011 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C6BA9A71DD20E600040A011 /* LKKSegmentedControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BA9A81DD20E600040A011 /* LKKSegmentedControlTests.m */,
+				1C6BA9AA1DD20E600040A011 /* Info.plist */,
+			);
+			path = LKKSegmentedControlTests;
+			sourceTree = "<group>";
+		};
+		1C6BA9B21DD20E600040A011 /* LKKSegmentedControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BA9B31DD20E600040A011 /* LKKSegmentedControlUITests.m */,
+				1C6BA9B51DD20E600040A011 /* Info.plist */,
+			);
+			path = LKKSegmentedControlUITests;
+			sourceTree = "<group>";
+		};
+		1C6BA9C11DD20E820040A011 /* LKKSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BA9C21DD20EC70040A011 /* LKKSegmentedControl.h */,
+				1C6BA9C31DD20EC70040A011 /* LKKSegmentedControl.m */,
+			);
+			path = LKKSegmentedControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C6BA98A1DD20E5F0040A011 /* LKKSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C6BA9B81DD20E600040A011 /* Build configuration list for PBXNativeTarget "LKKSegmentedControl" */;
+			buildPhases = (
+				1C6BA9871DD20E5F0040A011 /* Sources */,
+				1C6BA9881DD20E5F0040A011 /* Frameworks */,
+				1C6BA9891DD20E5F0040A011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKKSegmentedControl;
+			productName = LKKSegmentedControl;
+			productReference = 1C6BA98B1DD20E5F0040A011 /* LKKSegmentedControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C6BA9A31DD20E600040A011 /* LKKSegmentedControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C6BA9BB1DD20E600040A011 /* Build configuration list for PBXNativeTarget "LKKSegmentedControlTests" */;
+			buildPhases = (
+				1C6BA9A01DD20E600040A011 /* Sources */,
+				1C6BA9A11DD20E600040A011 /* Frameworks */,
+				1C6BA9A21DD20E600040A011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C6BA9A61DD20E600040A011 /* PBXTargetDependency */,
+			);
+			name = LKKSegmentedControlTests;
+			productName = LKKSegmentedControlTests;
+			productReference = 1C6BA9A41DD20E600040A011 /* LKKSegmentedControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C6BA9AE1DD20E600040A011 /* LKKSegmentedControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C6BA9BE1DD20E600040A011 /* Build configuration list for PBXNativeTarget "LKKSegmentedControlUITests" */;
+			buildPhases = (
+				1C6BA9AB1DD20E600040A011 /* Sources */,
+				1C6BA9AC1DD20E600040A011 /* Frameworks */,
+				1C6BA9AD1DD20E600040A011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C6BA9B11DD20E600040A011 /* PBXTargetDependency */,
+			);
+			name = LKKSegmentedControlUITests;
+			productName = LKKSegmentedControlUITests;
+			productReference = 1C6BA9AF1DD20E600040A011 /* LKKSegmentedControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C6BA9831DD20E5F0040A011 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "KinKeung Leung";
+				TargetAttributes = {
+					1C6BA98A1DD20E5F0040A011 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					1C6BA9A31DD20E600040A011 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1C6BA98A1DD20E5F0040A011;
+					};
+					1C6BA9AE1DD20E600040A011 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1C6BA98A1DD20E5F0040A011;
+					};
+				};
+			};
+			buildConfigurationList = 1C6BA9861DD20E5F0040A011 /* Build configuration list for PBXProject "LKKSegmentedControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C6BA9821DD20E5F0040A011;
+			productRefGroup = 1C6BA98C1DD20E5F0040A011 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C6BA98A1DD20E5F0040A011 /* LKKSegmentedControl */,
+				1C6BA9A31DD20E600040A011 /* LKKSegmentedControlTests */,
+				1C6BA9AE1DD20E600040A011 /* LKKSegmentedControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C6BA9891DD20E5F0040A011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6BA99E1DD20E5F0040A011 /* LaunchScreen.storyboard in Resources */,
+				1C6BA99B1DD20E5F0040A011 /* Assets.xcassets in Resources */,
+				1C6BA9991DD20E5F0040A011 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6BA9A21DD20E600040A011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6BA9AD1DD20E600040A011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C6BA9871DD20E5F0040A011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6BA9961DD20E5F0040A011 /* ViewController.m in Sources */,
+				1C6BA9931DD20E5F0040A011 /* AppDelegate.m in Sources */,
+				1C6BA9901DD20E5F0040A011 /* main.m in Sources */,
+				1C6BA9C41DD20EC70040A011 /* LKKSegmentedControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6BA9A01DD20E600040A011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6BA9A91DD20E600040A011 /* LKKSegmentedControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6BA9AB1DD20E600040A011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6BA9B41DD20E600040A011 /* LKKSegmentedControlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C6BA9A61DD20E600040A011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C6BA98A1DD20E5F0040A011 /* LKKSegmentedControl */;
+			targetProxy = 1C6BA9A51DD20E600040A011 /* PBXContainerItemProxy */;
+		};
+		1C6BA9B11DD20E600040A011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C6BA98A1DD20E5F0040A011 /* LKKSegmentedControl */;
+			targetProxy = 1C6BA9B01DD20E600040A011 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C6BA9971DD20E5F0040A011 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C6BA9981DD20E5F0040A011 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C6BA99C1DD20E5F0040A011 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C6BA99D1DD20E5F0040A011 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C6BA9B61DD20E600040A011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C6BA9B71DD20E600040A011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C6BA9B91DD20E600040A011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LKKSegmentedControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lkk..LKKSegmentedControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C6BA9BA1DD20E600040A011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LKKSegmentedControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lkk..LKKSegmentedControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1C6BA9BC1DD20E600040A011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LKKSegmentedControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lkk..LKKSegmentedControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKKSegmentedControl.app/LKKSegmentedControl";
+			};
+			name = Debug;
+		};
+		1C6BA9BD1DD20E600040A011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LKKSegmentedControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lkk..LKKSegmentedControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKKSegmentedControl.app/LKKSegmentedControl";
+			};
+			name = Release;
+		};
+		1C6BA9BF1DD20E600040A011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LKKSegmentedControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lkk..LKKSegmentedControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LKKSegmentedControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1C6BA9C01DD20E600040A011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LKKSegmentedControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lkk..LKKSegmentedControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LKKSegmentedControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C6BA9861DD20E5F0040A011 /* Build configuration list for PBXProject "LKKSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6BA9B61DD20E600040A011 /* Debug */,
+				1C6BA9B71DD20E600040A011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C6BA9B81DD20E600040A011 /* Build configuration list for PBXNativeTarget "LKKSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6BA9B91DD20E600040A011 /* Debug */,
+				1C6BA9BA1DD20E600040A011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C6BA9BB1DD20E600040A011 /* Build configuration list for PBXNativeTarget "LKKSegmentedControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6BA9BC1DD20E600040A011 /* Debug */,
+				1C6BA9BD1DD20E600040A011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C6BA9BE1DD20E600040A011 /* Build configuration list for PBXNativeTarget "LKKSegmentedControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6BA9BF1DD20E600040A011 /* Debug */,
+				1C6BA9C01DD20E600040A011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C6BA9831DD20E5F0040A011 /* Project object */;
+}
