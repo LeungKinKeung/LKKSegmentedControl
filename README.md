@@ -1,8 +1,11 @@
 # LKKSegmentedControl
 Segmented Control
 
-使用例子:
 
+![](https://github.com/LeungKinKeung/image/blob/master/LKKSegmentedControl.jpg)
+
+
+使用例子:
 
 <pre>
 <code>#import "ViewController.h"
